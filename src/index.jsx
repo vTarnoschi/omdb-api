@@ -1,6 +1,8 @@
 import React, { useEffect, useCallback, useState } from "react";
 import ReactDOM from "react-dom";
 
+import './GlobalStyle.css';
+
 import { useDispatch, useSelector } from "react-redux";
 
 import { Provider } from "react-redux";
@@ -24,7 +26,7 @@ const Content = styled.div`
   flex-direction: column;
 
   .content-width {
-    width: 980px;
+    width: 700px;
 
     .header-content {
       display: flex;

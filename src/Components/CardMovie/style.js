@@ -26,8 +26,8 @@ const CardMovieStyle = styled.div`
       border-radius: 10px;
       padding: 15px;
       display: flex;
-      max-width: 950px;
-      min-width: 950px;
+      max-width: 670px;
+      min-width: 670px;
       min-height: 300px;
 
       .movie-poster {
