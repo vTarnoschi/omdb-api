@@ -6,8 +6,6 @@ const metaScoreColors = {
   red: "#f00",
 };
 
-const defaultConfig = {};
-
 function getMetaScoreColor(score) {
   const scoreNumber = Number(score);
 
@@ -39,7 +37,6 @@ const CardMovieStyle = styled.div`
         flex-direction: column;
         flex: 1;
         margin-left: 20px;
-        font-family: Arial, Helvetica, sans-serif;
 
         div {
           flex: 1;
@@ -88,6 +85,7 @@ const CardMovieStyle = styled.div`
 
         .movie-tags {
           display: flex;
+          margin-bottom: 8px;
 
           span {
             margin-right: 12px;

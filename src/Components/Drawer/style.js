@@ -25,7 +25,7 @@ export const DrawerStyle = styled.div`
         display: flex;
         justify-content: space-between;
         padding: 20px;
-        background: #cacaca;
+        background: #f3f3f3;
 
         span {
           font-size: 20px;
@@ -34,10 +34,11 @@ export const DrawerStyle = styled.div`
 
         .close-drawer {
           font-size: 16px;
+          transition: 0.1s;
 
           :hover {
             cursor: pointer;
-            color: white;
+            opacity: 0.5
           }
         }
       }
